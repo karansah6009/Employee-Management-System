@@ -1,6 +1,6 @@
 
 
-const BASE_URL = "http://localhost:8080/api";
+const BASE_URL = "https://e-m-s-backend-akxd.onrender.com/api";
 
 export async function createEmployee(name, email,dept) {
   const response = await fetch(`${BASE_URL}/employees`, {
