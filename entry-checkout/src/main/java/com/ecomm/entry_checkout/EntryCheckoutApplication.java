@@ -8,6 +8,5 @@ public class EntryCheckoutApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(EntryCheckoutApplication.class, args);
-	}
-
+		}
 }
